@@ -26,7 +26,7 @@ export class ContentListComponent implements OnInit {
       },
       {
         id: 1,
-        title: "Black Lotus",
+        title: "Mox Ruby",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
         imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
@@ -35,7 +35,7 @@ export class ContentListComponent implements OnInit {
       },
       {
         id: 2,
-        title: "Black Lotus",
+        title: "Mox Jet",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
         imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024"
@@ -44,7 +44,7 @@ export class ContentListComponent implements OnInit {
       },
       {
         id: 3,
-        title: "Black Lotus",
+        title: "Time Walk",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
         imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024"
@@ -53,7 +53,7 @@ export class ContentListComponent implements OnInit {
       },
       {
         id: 4,
-        title: "Black Lotus",
+        title: "Mox Pearl",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
         imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
@@ -62,7 +62,7 @@ export class ContentListComponent implements OnInit {
       },
       {
         id: 5,
-        title: "Black Lotus",
+        title: "Ancestral Recall",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
         imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
@@ -72,7 +72,7 @@ export class ContentListComponent implements OnInit {
       },
       {
         id: 6,
-        title: "Black Lotus",
+        title: "Mox Emerald",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
         imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
@@ -82,7 +82,7 @@ export class ContentListComponent implements OnInit {
       },
       {
         id: 7,
-        title: "Black Lotus",
+        title: "Timetwister",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
         imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
