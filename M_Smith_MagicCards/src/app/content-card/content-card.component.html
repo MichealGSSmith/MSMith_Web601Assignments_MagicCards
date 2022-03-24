@@ -13,6 +13,7 @@
         {{content?.type}}
     </div>
     <div class="tags" *ngIf="content?.tags">
-        {{content?.tags}}
+        <span class="tag" *ngIf="let tag of content?.tags">#{{tag}}</span>
+    
     </div>
 </div>

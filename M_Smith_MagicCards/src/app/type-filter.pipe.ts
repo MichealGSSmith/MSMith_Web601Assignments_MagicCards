@@ -7,12 +7,12 @@ import { Content } from "./helper-files/content-interface";
 })
 
 export class TypeFilterPipe implements PipeTransform {
-    transform(ContentList: Content[], filterByThisType?: string): Content[] {
+    transform(content: Content[], filterByThisType?: string): Content[] {
         
     
         console.log("Value: ", filterByThisType);
 
-        return ContentList.filter(c=> {
+        return content.filter(c=> {
             if (filterByThisType) {
                 return c.type == filterByThisType;
             } else {
