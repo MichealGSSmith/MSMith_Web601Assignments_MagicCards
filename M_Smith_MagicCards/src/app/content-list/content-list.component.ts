@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { triggerAsyncId } from 'async_hooks';
+import { type } from 'os';
 import { Content } from '../helper-files/content-interface';
 
 @Component({
@@ -8,17 +10,16 @@ import { Content } from '../helper-files/content-interface';
 })
 export class ContentListComponent implements OnInit {
   content?:Content[];
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() {
     this.content = [
       {
         id: 0,
         title: "Black Lotus",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024"
-
+        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
+        type: "Black",
+        tags: ["power nine", "power 9"]
 
       },
       {
@@ -26,8 +27,8 @@ export class ContentListComponent implements OnInit {
         title: "Black Lotus",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024"
-
+        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
+        type: "Red"
 
       },
       {
@@ -68,5 +69,9 @@ export class ContentListComponent implements OnInit {
       }
     ]
   }
+   
 
+  ngOnInit(): void {
+    
+  }
 }
