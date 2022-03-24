@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { triggerAsyncId } from 'async_hooks';
-import { type } from 'os';
 import { Content } from '../helper-files/content-interface';
 
 @Component({
