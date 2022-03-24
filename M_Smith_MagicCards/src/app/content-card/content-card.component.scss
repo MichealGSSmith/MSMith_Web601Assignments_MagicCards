@@ -1,0 +1,25 @@
+:host{
+    border: 1px solid #000000;
+    display: block;
+    margin: 15px auto;
+    padding: 9px;
+    width: 495px;
+    text-align: center;
+}
+
+:host.first-content{
+    border: 1px solid #000000;
+}
+
+.image{
+    width: 250px;
+}
+
+.tags{
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: aquamarine;
+    margin: 7px;
+    padding: 8px;
+}
