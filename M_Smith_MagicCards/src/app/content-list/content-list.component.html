@@ -9,16 +9,16 @@
 [content]="item" class="notype" [class.found]="item.title == search.value"></app-content-card>
 
 <app-content-card *ngFor="let item of (content | typeFilter: 'Red'); first as isFirstContentOnList" [class.first-content]="isFirstContentOnList"
-[content]="item" class="notype" [class.found]="item.title == search.value"></app-content-card>
+[content]="item" class="Blue" [class.found]="item.title == search.value"></app-content-card>
 
 <app-content-card *ngFor="let item of (content | typeFilter: 'Green'); first as isFirstContentOnList" [class.first-content]="isFirstContentOnList"
-[content]="item" class="notype" [class.found]="item.title == search.value"></app-content-card>
+[content]="item" class="Red" [class.found]="item.title == search.value"></app-content-card>
 
 <app-content-card *ngFor="let item of (content | typeFilter: 'Black'); first as isFirstContentOnList" [class.first-content]="isFirstContentOnList"
-[content]="item" class="notype" [class.found]="item.title == search.value"></app-content-card>
+[content]="item" class="White" [class.found]="item.title == search.value"></app-content-card>
 
 <app-content-card *ngFor="let item of (content | typeFilter: 'Blue'); first as isFirstContentOnList" [class.first-content]="isFirstContentOnList"
-[content]="item" class="notype" [class.found]="item.title == search.value"></app-content-card>
+[content]="item" class="Black" [class.found]="item.title == search.value"></app-content-card>
 
 <app-content-card *ngFor="let item of (content | typeFilter: 'White'); first as isFirstContentOnList" [class.first-content]="isFirstContentOnList"
-[content]="item" class="notype" [class.found]="item.title == search.value"></app-content-card>
+[content]="item" class="Green" [class.found]="item.title == search.value"></app-content-card>
