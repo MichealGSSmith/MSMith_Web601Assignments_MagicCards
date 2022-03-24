@@ -11,6 +11,27 @@
     border: 1px solid #000000;
 }
 
+:host.notype {
+    background-color: cadetblue;
+}
+
+:host.Black {
+    background-color:blueviolet;
+}
+:host.Red {
+    background-color:darkgoldenrod;
+}
+:host.Blue {
+    background-color:hotpink;
+}
+:host.White {
+    background-color:darkmagenta;
+}
+
+:host.Green {
+    background-color:lightskyblue;
+}
+
 .image{
     width: 250px;
 }
