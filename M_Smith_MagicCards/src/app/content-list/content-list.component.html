@@ -3,7 +3,7 @@
 
 <div class="search">
     <input #search>
-    <button (click)="checkForTitle(search.value)">Look For Card</button>
+    <button (click)="checkTitle(search.value)">Look For Card</button>
     <h3 class="success" *ngIf="flag">Card Found</h3>
     <h3 class="fail" *ngIf="!flag">Card Found</h3>    
 </div>
