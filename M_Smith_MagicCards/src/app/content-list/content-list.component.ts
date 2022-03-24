@@ -19,7 +19,7 @@ export class ContentListComponent implements OnInit {
         title: "Black Lotus",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
+        imgUrl:"https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/122584.jpg",
         type: "Black",
         tags: ["power nine", "power 9"]
 
@@ -29,7 +29,7 @@ export class ContentListComponent implements OnInit {
         title: "Mox Ruby",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
+        imgUrl: "https://static.cardkingdom.com/images/magic-the-gathering/unlimited/mox-ruby-86403.jpg",
         type: "Red"
 
       },
@@ -38,7 +38,7 @@ export class ContentListComponent implements OnInit {
         title: "Mox Jet",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024"
+        imgUrl: "https://static.cardkingdom.com/images/magic-the-gathering/unlimited/mox-jet-61953.jpg"
 
 
       },
@@ -47,7 +47,7 @@ export class ContentListComponent implements OnInit {
         title: "Time Walk",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024"
+        imgUrl: "https://static.cardkingdom.com/images/magic-the-gathering/unlimited/time-walk-69028.jpg"
 
 
       },
@@ -56,7 +56,7 @@ export class ContentListComponent implements OnInit {
         title: "Mox Pearl",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
+        imgUrl: "https://static.cardkingdom.com/images/magic-the-gathering/unlimited/mox-pearl-87881.jpg",
         type: "White"
 
       },
@@ -65,7 +65,7 @@ export class ContentListComponent implements OnInit {
         title: "Ancestral Recall",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
+        imgUrl: "https://static.cardkingdom.com/images/magic-the-gathering/unlimited/ancestral-recall-16716.jpg",
         type: "Green",
 
 
@@ -75,7 +75,7 @@ export class ContentListComponent implements OnInit {
         title: "Mox Emerald",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
+        imgUrl: "https://static.cardkingdom.com/images/magic-the-gathering/unlimited/mox-emerald-57668.jpg",
         type: "Green",
         tags: ["power nine", "power 9", "Green"]
 
@@ -85,7 +85,7 @@ export class ContentListComponent implements OnInit {
         title: "Timetwister",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.wikia.nocookie.net/mtgsalvation_gamepedia/images/2/24/LEA_Black_Lotus.jpg/revision/latest/scale-to-width-down/672?cb=20190308055024",
+        imgUrl: "https://static.cardkingdom.com/images/magic-the-gathering/unlimited/timetwister-96900.jpg",
         type: "Blue",
         tags: ["power nine", "power 9","Blue"]
 

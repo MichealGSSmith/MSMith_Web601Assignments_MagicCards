@@ -32,6 +32,11 @@
     background-color:lightskyblue;
 }
 
+:host.found {
+    border-color: green;
+    border-width: 7px;
+}
+
 .image{
     width: 250px;
 }
