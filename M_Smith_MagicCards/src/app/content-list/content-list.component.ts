@@ -98,7 +98,7 @@ export class ContentListComponent implements OnInit {
     
   }
   checkTitle(search: string): void{
-    let searchList = this.content.filter(c => c.title == search);
+    let searchList = this.content.filter(content => content.title == search);
     if (searchList.length > 0) {
       this.message = "Found Your Card!!";
       this.flag = true;
