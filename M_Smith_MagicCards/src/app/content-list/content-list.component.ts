@@ -65,7 +65,7 @@ export class ContentListComponent implements OnInit {
         title: "Ancestral Recall",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.cardkingdom.com/images/magic-the-gathering/unlimited/ancestral-recall-16716.jpg",
+        imgUrl: "",
         type: "Green",
 
 
@@ -85,7 +85,7 @@ export class ContentListComponent implements OnInit {
         title: "Timetwister",
         description: "Power 9 Original Card",
         creator: "Christopher Rush",
-        imgUrl: "https://static.cardkingdom.com/images/magic-the-gathering/unlimited/timetwister-96900.jpg",
+        imgUrl: "",
         type: "Blue",
         tags: ["power nine", "power 9","Blue"]
 

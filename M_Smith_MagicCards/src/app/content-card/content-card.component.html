@@ -2,6 +2,7 @@
 
 <h2 class="title">{{content?.title}}</h2>
 <img (click)="imageClicked()" *ngIf="content?.imgUrl" class="image" [src]="content?.imgUrl">
+<img (click)="imageClicked()" *ngIf="!content?.imgUrl" class="image" src="https://mtgproshop.com/wp-content/uploads/2020/10/MTG-PW-Symbol.png.webp">
 <p class="body">
     {{content?.description}}
 </p>
