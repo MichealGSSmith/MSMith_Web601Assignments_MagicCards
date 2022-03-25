@@ -8,7 +8,7 @@
 }
 
 :host.first-content{
-    border: 1px solid #000000;
+    border: 3px solid #000000;
 }
 
 :host.notype {
@@ -41,7 +41,7 @@
     width: 250px;
 }
 
-.tags{
+.tag{
     display: inline-block;
     border-radius: 10px;
     border: 1px solid #000000;
